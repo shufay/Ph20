@@ -25,23 +25,13 @@ def trig_np(f_x, f_y, a_x, a_y, phi, dt, n):
     Computes trigonometric functions X(t), Y(t) and Z(t). Stores the 
     results in numpy arrays. 
     '''
-    X_out = np.array([])
-    Y_out = np.array([])
-    Z_out = np.array([])
-    T = np.array([])
+    t = dt * np.arange(0, n+1)
 
-    for i in range(n + 1):
-        t = i * dt
-        x = X(f_x, a_x, t) 
-        y = Y(f_y, a_y, t, phi)
-        z = Z(x, y)
+    X_out = X(f_x, a_x, t)
+    Y_out = Y(f_y, a_y, t, phi)
+    Z_out = Z(X_out, Y_out)
 
-        X_out = np.append(X_out, np.array(x))
-        Y_out = np.append(Y_out, np.array(y))
-        Z_out = np.append(Z_out, np.array(z))
-        T = np.append(T, np.array(t))
-
-    return X_out, Y_out, Z_out, T
+    return X_out, Y_out, Z_out, t
 
 f_x = 1.0
 f_y = [0.1, 0.3, 0.7, 0.9, 1.1, 1.2]

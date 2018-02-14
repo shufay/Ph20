@@ -18,19 +18,11 @@ def trig_list(f_x, f_y, a_x, a_y, phi, dt, n):
     results in python lists. Outputs the results to .txt files 
     "X_list_out.txt", "Y_list_out.txt" and "X_list_out.txt".
     '''
-    X_out = []
-    Y_out = []
-    Z_out = []
+    t = dt * np.arange(0, n+1)
 
-    for i in range(n + 1):
-        t = i * dt
-        x = X(f_x, a_x, t) 
-        y = Y(f_y, a_y, t, phi)
-        z = Z(x, y)
-
-        X_out.append(x)
-        Y_out.append(y)
-        Z_out.append(z)
+    X_out = X(f_x, a_x, t)
+    Y_out = Y(f_y, a_y, t, phi)
+    Z_out = Z(X_out, Y_out)
 
     return X_out, Y_out, Z_out
 
