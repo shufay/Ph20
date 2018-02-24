@@ -1,0 +1,60 @@
+commit db150e39384418afe6c5976437d2a7d6bc906920
+Author: Ung Shu Fay <shufay.ung@gmail.com>
+Date:   Fri Feb 23 18:17:43 2018 -0800
+
+    Makefile
+
+commit 6467098c9dd5bcf38034809343a28c80109d8369
+Author: Ung Shu Fay <shufay.ung@gmail.com>
+Date:   Fri Feb 23 01:11:16 2018 -0800
+
+    added tex file
+
+commit 043b1d9d2f43e5e4c27d93f9232d992a5381909a
+Author: Ung Shu Fay <shufay.ung@gmail.com>
+Date:   Wed Feb 14 13:57:09 2018 -0800
+
+    changed
+
+commit aba8b22205279e4f97598f6840a125936f77a214
+Author: Ung Shu Fay <shufay.ung@gmail.com>
+Date:   Wed Feb 14 13:55:48 2018 -0800
+
+    added assignment2
+
+commit 01f16c69a65a4900a4576e2c1b6bc7b484d8404f
+Author: Ung Shu Fay <shufay.ung@gmail.com>
+Date:   Wed Feb 14 13:55:24 2018 -0800
+
+    added file to assignment1
+
+commit 2f206c8195430cc17dab1c4c50c0f97fef091d29
+Author: Ung Shu Fay <shufay.ung@gmail.com>
+Date:   Wed Feb 14 13:49:57 2018 -0800
+
+    changed constants
+
+commit 726bcc7a0ef4e3ecf46644987916de4e4ee1ddd8
+Merge: 391cfbe e40bf51
+Author: Ung Shu Fay <shufay.ung@gmail.com>
+Date:   Wed Feb 14 13:46:27 2018 -0800
+
+    Merge branch 'master' of https://github.com/shufay/Ph20
+
+commit e40bf51a453e70fb72899b1098109ccedc8c58c6
+Author: shufay <shufay@yahoo.com>
+Date:   Wed Feb 14 13:43:42 2018 -0800
+
+    Initial commit
+
+commit 391cfbef13e6d575849d025c34e5375b2a39f112
+Author: Ung Shu Fay <shufay.ung@gmail.com>
+Date:   Wed Feb 14 13:43:41 2018 -0800
+
+    added file
+
+commit 92adfea2d8c961a0b61a305b8fb5f13358a52a11
+Author: Ung Shu Fay <shufay.ung@gmail.com>
+Date:   Thu Jan 18 01:24:02 2018 -0800
+
+    add files
