@@ -1,0 +1,3 @@
+Phase space trajectories of solutions for the spring given by the analytical, symplectic, explicit and implicit Euler’s method. The analytical and symplectic solutions trace out a circle in phase space while the Euler’s methods do not trace out closed curves. The parameters were: $x_0 = 3, v_0 = 3, h = 0.01, N = 5000$.
+
+
