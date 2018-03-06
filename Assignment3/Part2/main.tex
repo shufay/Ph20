@@ -7,6 +7,12 @@
 \usepackage{listings}
 \usepackage{minted}
 
+\usepackage{xcolor}
+\newcommand{\cdw}[1]
+           {{\color{blue} [CDW: comment] #1}}
+\newcommand{\correct}[1]
+           {{\color{red} [CDW: needs correction] #1}}
+           
 \usemintedstyle{tango}
 
 \lstset
@@ -16,11 +22,14 @@
     breakindent = 0pt,
     mathescape
 }
-\title{Ph20 Assignment 3 (Part 2)}
+\title{Ph20 Assignment 3 (Part 2)
+\\\cdw{PASS}}
 \author{Ung Shu Fay}
 
 \begin{document}
 \maketitle
+
+\cdw{You've put a whole bunch of compilation products (e.g. the pdf of this report, but also some files minted/pygments created) under version control. This has upsides and downsides: it makes it easy for a collaborator to see results without having to pull and recompile, but it also makes diffs very hard to understand.}
 
 \section{Phase Space Trajectories}
     \begin{figure}[h!]
