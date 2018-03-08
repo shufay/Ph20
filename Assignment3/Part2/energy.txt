@@ -1,0 +1,1 @@
+Evolution of the total energy obtained with the symplectic Euler method. The total energy as a function of time is sinusoidal. The average total energy $E= 9 \ \mathrm{J}$ is constant and produces the circle $x^2 + v^2 = E$ traced out in phase space. The plot was generated with $h = 0.01$.

@@ -1,0 +1,1 @@
+Global error in phase produced by the symplectic Euler method. The plot was produced for the last 6 oscillations of 750 oscillations with $h = 0.1$ and $N = 50 000$.
