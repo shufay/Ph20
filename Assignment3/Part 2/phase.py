@@ -57,8 +57,8 @@ def energy_sym(x0, v0, h0, N):
     return sym[0], np.square(sym[1]) + np.square(sym[2])
 
 # Constants
-x0 = 2
-v0 = 5
+x0 = 3
+v0 = 0
 h0 = 0.01
 N = 5000
 
