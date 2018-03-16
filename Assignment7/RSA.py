@@ -1,4 +1,9 @@
+'''
+To run, type 'python RSA.py' in terminal.
+'''
+
 import random, sys
+
 
 def check_prime(n, k=20):
     '''
@@ -179,11 +184,15 @@ class RSA:
         return test  
 
 if __name__ == '__main__':
-    RSA = RSA(16)
+    length = 16
+    RSA = RSA(length)
     m = random.randint(1, 1000)
     encrypted = RSA.encrypt(m)
     decrypted = RSA.decrypt(encrypted)
-    collide =   RSA.collision(encrypted)
+    collide = RSA.collision(encrypted)
+    
+    print('Key Length: ', length)
+    print()
 
     print('Public Keys')
     print('-----------')
@@ -202,7 +211,7 @@ if __name__ == '__main__':
     print()
 
     print('collision attack: ', collide)
-    print(f'encrypt({collide}): ', RSA.encrypt(collide))
+    print('encrypt({}): '.format(collide), RSA.encrypt(collide))
 
 
 
