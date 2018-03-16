@@ -1,0 +1,56 @@
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+You have mail.
+Last login: Thu Mar 15 16:44:16 2018 from beavernet-162.caltech.edu
+
+Agent pid 22399
+Identity added: /home/controls/.ssh/id_rsa_craigGitlab (rsa w/o comment)
+(pyenv) ]0;controls@ws1: ~controls@ws1:~$ dvdv[K[Klaunch
+-bash: dvlaunch: command not found
+(pyenv) ]0;controls@ws1: ~controls@ws1:~$ LIGONDSIP=localhost dataviewer
+Connecting.... done
+Warning: Cannot convert string "-adobe-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*" to type FontStruct
+Warning: Not all children have same parent in XtManageChildren
+Warning: Not all children have same parent in XtManageChildren
+Warning: Not all children have same parent in XtManageChildren
+Warning: Not all children have same parent in XtManageChildren
+Warning: Not all children have same parent in XtManageChildren
+Error in obtaining chan info.
+Connecting.... done
+Error in obtaining chan info.
+(pyenv) ]0;controls@ws1: ~controls@ws1:~$ ipython
+WARNING: Attempting to work in a virtualenv. If you encounter problems, please install IPython inside the virtualenv.
+Python 2.7.9 (default, Jun 29 2016, 13:08:31) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 2.3.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+[0;34mIn [[1;34m1[0;34m]: [0mimport nds2
+
+[0;34mIn [[1;34m2[0;34m]: [0mc = nds2.connection('10.0.1.156', 8088)
+
+[0;34mIn [[1;34m3[0;34m]: [0mgpstime = 1201902464
+
+[0;34mIn [[1;34m4[0;34m]: [0mchanName = 'C3:PSL-SCAV_FSS_SLOWOUT'
+
+[0;34mIn [[1;34m5[0;34m]: [0mfrom pylab import *
+
+[0;34mIn [[1;34m6[0;34m]: [0mion()
+
+[0;34mIn [[1;34m7[0;34m]: [0mdata = s.[K[Kc/[K.de[K[Kfetch(gpstime, gpstime+50000, [chanName])
+
+[0;34mIn [[1;34m8[0;34m]: [0mplot(data[0].data)
+[0;31mOut[[1;31m8[0;31m]: [0m[<matplotlib.lines.Line2D at 0x7f885538b950>]
+
+[0;34mIn [[1;34m9[0;34m]: [0mexit
+(pyenv) ]0;controls@ws1: ~controls@ws1:~$ exit
+logout
